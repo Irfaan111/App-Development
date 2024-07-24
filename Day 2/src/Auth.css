@@ -1,0 +1,33 @@
+.logf1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+}
+
+table {
+    padding: 50px;
+    gap: 60px;
+    color:white;
+}
+
+td {
+    padding: 50px;
+    color:white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+}
+
+form {
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 5px;
+    padding: 50px;
+}
