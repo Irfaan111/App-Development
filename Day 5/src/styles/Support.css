@@ -1,0 +1,90 @@
+.support-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .support-header {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .support-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .support-header p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .support-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .support-section {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .support-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .support-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .support-section ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .support-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .support-form label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .support-form input,
+  .support-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .support-form textarea {
+    resize: none;
+  }
+  
+  .submit-button {
+    padding: 12px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0044cc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
