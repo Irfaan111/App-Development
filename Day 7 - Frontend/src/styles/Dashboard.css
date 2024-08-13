@@ -1,0 +1,191 @@
+/* Dashboard.css */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.dashboard{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 50px;
+  height:fit-content;
+  background-image: url('https://www.livelaw.in/h-upload/images/750x450_insurance-policy.jpg');
+  background-size: cover;
+  padding: 50px;
+  scroll-behavior: smooth;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: whitesmoke;
+  padding: 100px;
+  width: 80%;
+  border-radius: 24px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+  width: 92%;
+  border-radius: 24px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items:start;
+  align-content: center;
+  background-color: whitesmoke;
+  width: 100%;
+  border-radius: 24px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  align-content: start;
+  position: relative;
+  top: -15px;
+  gap: 2%;
+  width: 500px;
+}
+
+.dashboard-header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  align-content: center;
+  gap: 10%;
+  width: 80%;
+  background-color: white;
+  text-align: center;
+  border-radius: 24px;
+  padding: 25px;
+  padding-right: 150px;
+}
+
+.img{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  align-content: start;
+  gap: 2%;
+}
+
+.dashboard-grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8%;
+  border-radius: 24px;
+}
+
+.dp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  gap:20px;
+}
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-image{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout-section{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 30%;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.dashboard-header p {
+  font-size: 1.2rem;
+}
+
+.dashboard-content section {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-content h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #0044cc;
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #007bff;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-link:hover {
+  color: white;
+  background-color: #003268;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}

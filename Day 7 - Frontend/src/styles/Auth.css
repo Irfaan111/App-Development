@@ -1,0 +1,94 @@
+.login-wrapper{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.thegainers.in/wp-content/uploads/2021/06/Best-Life-Insurance-Company-1.jpg');
+    background-size: cover;
+}
+
+.register-wrapper{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.thebalancemoney.com/thmb/a1BfDbd1QWM4-hI8KeRXcBF-3sk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1365436662-e970848785b44c14bf1510e6fb0ec206.jpg');
+    background-size: cover;
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f5;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .auth-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .auth-container input {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .auth-container button {
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .auth-container .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .auth-container .redirect-text {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .auth-container .redirect-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-container .redirect-text a:hover {
+    text-decoration: underline;
+  }
